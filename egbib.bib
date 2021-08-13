@@ -1,0 +1,391 @@
+% ________________________________Key surface reconstruction algos_______________________
+
+% ________________________________Poisson + dense cloud filtering________________________
+
+% http://cvg-pub.inf.ethz.ch/WebBIB/papers/2007/MerrellICCV07.pdf
+@article{merrell2007real,
+  title={Real-time visibility-based fusion of depth maps},
+  author={Merrell, Paul and Akbarzadeh, Amir and Wang, Liang and Mordohai, Philippos and Frahm, Jan-Michael and Yang, Ruigang and Nist{\'e}r, David and Pollefeys, Marc},
+  booktitle={2007 IEEE 11th International Conference on Computer Vision},
+  pages={1--8},
+  year={2007},
+  organization={IEEE}
+}
+
+% http://hhoppe.com/poissonrecon.pdf
+@article{kazhdan2006poisson,
+  title={Poisson surface reconstruction},
+  author={Kazhdan, Michael and Bolitho, Matthew and Hoppe, Hugues},
+  booktitle={Proceedings of the fourth Eurographics symposium on Geometry processing},
+  volume={7},
+  year={2006}
+}
+
+% http://www.cs.jhu.edu/~misha/MyPapers/SGP07b.pdf
+@article{bolitho2007multilevel,
+  title={Multilevel streaming for out-of-core surface reconstruction},
+  author={Bolitho, Matthew and Kazhdan, Michael and Burns, Randal and Hoppe, Hugues},
+  booktitle={Symposium on geometry processing},
+  pages={69--78},
+  year={2007},
+  organization={Citeseer}
+}
+
+% ________________________________Graphcuts-based________________________________________
+
+@inproceedings{cao2014gpu,
+  title={A GPU accelerated algorithm for 3D Delaunay triangulation},
+  author={Cao, Thanh-Tung and Nanjappa, Ashwin and Gao, Mingcen and Tan, Tiow-Seng},
+  booktitle={Proceedings of the 18th meeting of the ACM SIGGRAPH Symposium on Interactive 3D Graphics and Games},
+  pages={47--54},
+  year={2014}
+}
+
+@article{boykov2004experimental,
+  title={An experimental comparison of min-cut/max-flow algorithms for energy minimization in vision},
+  author={Boykov, Yuri and Kolmogorov, Vladimir},
+  journal={IEEE transactions on pattern analysis and machine intelligence},
+  volume={26},
+  number={9},
+  pages={1124--1137},
+  year={2004},
+  publisher={IEEE}
+}
+
+@incollection{goldberg2015faster,
+  title={Faster and more dynamic maximum flow by incremental breadth-first search},
+  author={Goldberg, Andrew V and Hed, Sagi and Kaplan, Haim and Kohli, Pushmeet and Tarjan, Robert E and Werneck, Renato F},
+  booktitle={Algorithms-ESA 2015},
+  pages={619--630},
+  year={2015},
+  publisher={Springer}
+}
+
+% https://hal-enpc.archives-ouvertes.fr/hal-00834903/document
+@article{hiep2009towards,
+  title={Towards high-resolution large-scale multi-view stereo},
+  author={Hiep, Vu Hoang and Keriven, Renaud and Labatut, Patrick and Pons, Jean-Philippe},
+  booktitle={2009 IEEE Conference on Computer Vision and Pattern Recognition},
+  pages={1430--1437},
+  year={2009},
+  organization={IEEE}
+}
+
+@article{jancosek2014exploiting,
+  title={Exploiting visibility information in surface reconstruction to preserve weakly supported surfaces},
+  author={Jancosek, Michal and Pajdla, Tomas},
+  journal={International scholarly research notices},
+  volume={2014},
+  year={2014},
+  publisher={Hindawi}
+}
+
+% ________________________________Photo-consistent refinement____________________________
+
+@article{vu2011high,
+  title={High Accuracy and Visibility-Consistent Dense Multiview Stereo},
+  author={Vu, Hoang-Hiep and Labatut, Patrick and Pons, Jean-Philippe and Keriven, Renaud},
+  journal={IEEE transactions on pattern analysis and machine intelligence},
+  volume={34},
+  number={5},
+  pages={889--901},
+  year={2011},
+  publisher={IEEE}
+}
+
+% http://slibc.student.ust.hk/pdf/arc.pdf
+@article{li2016efficient,
+  title={Efficient Multi-view Surface Refinement with Adaptive Resolution Control},
+  author={Li, Shiwei and Siu, Sing Yu and Fang, Tian and Quan, Long},
+  booktitle={European Conference on Computer Vision},
+  pages={349--364},
+  year={2016},
+  organization={Springer}
+}
+
+% ________________________________Large scale reconstruction_____________________________
+
+% https://lmb.informatik.uni-freiburg.de/people/ummenhof/multiscalefusion/
+% https://lmb.informatik.uni-freiburg.de/Publications/2015/UB15/ummenhofer2015Global.pdf
+% https://lmb.informatik.uni-freiburg.de/Publications/2017/UB17/ummenhofer2017Global.pdf
+@article{ummenhofer2015global,
+  title={Global, Dense Multiscale Reconstruction for a Billion Points},
+  author={Ummenhofer, Benjamin and Brox, Thomas},
+  booktitle={Proceedings of the IEEE International Conference on Computer Vision},
+  pages={1341--1349},
+  url={https://lmb.informatik.uni-freiburg.de/people/ummenhof/multiscalefusion/},
+  year={2015}
+}
+
+@article{ummenhofer2017global,
+  title={Global, Dense Multiscale Reconstruction for a Billion Points},
+  author={Ummenhofer, Benjamin and Brox, Thomas},
+  booktitle={Proceedings of the IEEE International Conference on Computer Vision},
+  journal={International Journal of Computer Vision},
+  pages={1--13},
+  year={2017}
+}
+
+% https://arxiv.org/pdf/1705.00949.pdf
+@article{mostegel2017scalable,
+  title={Scalable Surface Reconstruction from Point Clouds with Extreme Scale and Density Diversity},
+  author={Mostegel, Christian and Prettenthaler, Rudolf and Fraundorfer, Friedrich and Bischof, Horst},
+  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+  pages={904--913},
+  year={2017}
+}
+
+% http://openaccess.thecvf.com/content_iccv_2015_workshops/w9/papers/Kuhn_Incremental_Division_of_ICCV_2015_paper.pdf
+@article{kuhn2015incremental,
+  title={Incremental Division of Very Large Point Clouds for Scalable 3D Surface Reconstruction},
+  author={Kuhn, Andreas and Mayer, Helmut},
+  booktitle={Proceedings of the IEEE International Conference on Computer Vision Workshops},
+  pages={10--18},
+  year={2015}
+}
+
+% https://www.mdpi.com/1424-8220/19/6/1278/pdf
+@article{zhou2019detail,
+  title={Detail Preserved Surface Reconstruction from Point Cloud},
+  author={Zhou, Yang and Shen, Shuhan and Hu, Zhanyi},
+  journal={Sensors},
+  volume={19},
+  number={6},
+  pages={1278},
+  year={2019},
+  publisher={Multidisciplinary Digital Publishing Institute}
+}
+
+@article{han2019scalable,
+  title={Scalable point cloud meshing for image-based large-scale 3D modeling},
+  author={Han, Jiali and Shen, Shuhan},
+  journal={Visual Computing for Industry, Biomedicine, and Art},
+  volume={2},
+  number={1},
+  pages={1--9},
+  year={2019},
+  publisher={SpringerOpen}
+}
+
+% ________________________________Main references________________________________________
+
+% http://www.cs.jhu.edu/~misha/ReadingSeminar/Papers/Zach07.pdf
+@article{zach2007globally,
+  title={A Globally Optimal Algorithm for Robust TV-L1 Range Image Integration},
+  author={Zach, Christopher and Pock, Thomas and Bischof, Horst},
+  booktitle={2007 IEEE 11th International Conference on Computer Vision},
+  pages={1--8},
+  year={2007},
+  organization={IEEE}
+}
+
+% https://www.cc.gatech.edu/conferences/3DPVT08/Program/Papers/paper196.pdf
+@article{zach2008fast,
+  title={Fast and High Quality Fusion of Depth Maps},
+  author={Zach, Christopher},
+  booktitle={Proceedings of the international symposium on 3D data processing, visualization and transmission (3DPVT)},
+  volume={1},
+  number={2},
+  year={2008},
+  organization={Citeseer}
+}
+
+% https://hal.archives-ouvertes.fr/file/index/docid/437581/filename/preprint.pdf
+@article{chambolle2010introduction,
+  title={An introduction to Total Variation for Image Analysis},
+  author={Chambolle, Antonin and Caselles, Vicent and Cremers, Daniel and Novaga, Matteo and Pock, Thomas},
+  journal={Theoretical foundations and numerical methods for sparse recovery},
+  volume={9},
+  number={263-340},
+  pages={227},
+  year={2010},
+  publisher={de Gruyter}
+}
+
+% http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.381.5668&rep=rep1&type=pdf
+@article{graber2011online,
+  title={Online 3D reconstruction using convex optimization},
+  author={Graber, Gottfried and Pock, Thomas and Bischof, Horst},
+  booktitle={2011 IEEE International Conference on Computer Vision Workshops (ICCV Workshops)},
+  pages={708--711},
+  year={2011},
+  organization={IEEE}
+}
+
+@article{bredies2010total,
+  title={Total generalized variation},
+  author={Bredies, Kristian and Kunisch, Karl and Pock, Thomas},
+  journal={SIAM Journal on Imaging Sciences},
+  volume={3},
+  number={3},
+  pages={492--526},
+  year={2010},
+  publisher={SIAM}
+}
+
+@article{pock2011tgv,
+  title={TGV-Fusion},
+  author={Pock, Thomas and Zebedin, Lukas and Bischof, Horst},
+  booktitle={Rainbow of computer science},
+  pages={245--258},
+  year={2011},
+  publisher={Springer}
+}
+
+% ________________________________Secondary references___________________________________
+
+@article{barequet1995filling,
+  title={Filling gaps in the boundary of a polyhedron},
+  author={Barequet, Gill and Sharir, Micha},
+  journal={Computer Aided Geometric Design},
+  volume={12},
+  number={2},
+  pages={207--229},
+  year={1995},
+  publisher={Elsevier}
+}
+
+% http://www.cs.cmu.edu/~droh/papers/balance.ps
+@article{tu2004balance,
+  title={Balance Refinement of Massive Linear Octree},
+  author={Tu, Tiankai and O’hallaron, David R},
+  year={2004},
+  institution={Technical Report CMU-CS-04-129, Carnegie Mellon School of Computer Science}
+}
+
+@article{hirschmuller2007stereo,
+  title={Stereo processing by semiglobal matching and mutual information},
+  author={Hirschmuller, Heiko},
+  journal={IEEE Transactions on pattern analysis and machine intelligence},
+  volume={30},
+  number={2},
+  pages={328--341},
+  year={2007},
+  publisher={IEEE}
+}
+
+@article{morton1966computer,
+  title={A computer oriented geodetic data base and a new technique in file sequencing},
+  author={Morton, Guy M},
+  year={1966},
+  publisher={International Business Machines Company New York}
+}
+
+@inproceedings{williams1983pyramidal,
+  title={Pyramidal parametrics},
+  author={Williams, Lance},
+  booktitle={Proceedings of the 10th annual conference on Computer graphics and interactive techniques},
+  pages={1--11},
+  year={1983}
+}
+
+@book{bloomenthal1988polygonization,
+  title={Polygonization of implicit surfaces},
+  author={Bloomenthal, Jules},
+  year={1988},
+  publisher={Citeseer}
+}
+
+% https://www.cs.cmu.edu/~./garland/Papers/quadric2.pdf
+@inproceedings{garland1998simplifying,
+  title={Simplifying surfaces with color and texture using quadric error metrics},
+  author={Garland, Michael and Heckbert, Paul S},
+  booktitle={Proceedings Visualization'98 (Cat. No. 98CB36276)},
+  pages={263--269},
+  year={1998},
+  organization={IEEE}
+}
+
+% https://graphics.stanford.edu/papers/volrange/volrange.pdf
+@inproceedings{curless1996volumetric,
+  title={A volumetric method for building complex models from range images},
+  author={Curless, Brian and Levoy, Marc},
+  booktitle={Proceedings of the 23rd annual conference on Computer graphics and interactive techniques},
+  pages={303--312},
+  year={1996}
+}
+
+% https://www.gcc.tu-darmstadt.de/media/gcc/papers/Fuhrmann-2014-FSS.pdf
+@article{fuhrmann2014floating,
+  title={Floating scale surface reconstruction},
+  author={Fuhrmann, Simon and Goesele, Michael},
+  journal={ACM Transactions on Graphics (ToG)},
+  volume={33},
+  number={4},
+  pages={1--11},
+  year={2014},
+  publisher={ACM New York, NY, USA}
+}
+
+% https://www.gcc.tu-darmstadt.de/media/gcc/papers/Fuhrmann-2014-MVE.pdf
+@inproceedings{fuhrmann2014mve,
+  title={Mve-a multi-view reconstruction environment.},
+  author={Fuhrmann, Simon and Langguth, Fabian and Goesele, Michael},
+  booktitle={GCH},
+  pages={11--18},
+  url={https://www.gcc.tu-darmstadt.de/home/proj/mve/},
+  year={2014}
+}
+
+% https://www.unibw.de/visual-computing/publikationen-vortraege/publikationen-1/pdf-dateien-publikationen/kuhn-et-al_3dv-2014.pdf
+%@inproceedings{kuhn2014tv,
+%  title={A TV prior for high-quality local multi-view stereo reconstruction},
+%  author={Kuhn, Andeas and Mayer, Helmut and Hirschm{\"u}ller, Heiko and Scharstein, Daniel},
+%  booktitle={2014 2nd International Conference on 3D Vision},
+%  volume={1},
+%  pages={65--72},
+%  year={2014},
+%  organization={IEEE}
+%}
+
+% https://www.cv-foundation.org/openaccess/content_iccv_2015_workshops/w9/papers/Kuhn_Incremental_Division_of_ICCV_2015_paper.pdf
+@inproceedings{kuhn2015incremental,
+  title={Incremental division of very large point clouds for scalable 3D surface reconstruction},
+  author={Kuhn, Andreas and Mayer, Helmut},
+  booktitle={Proceedings of the IEEE International Conference on Computer Vision Workshops},
+  pages={10--18},
+  year={2015}
+}
+
+@article{kuhn2017tv,
+  title={A tv prior for high-quality scalable multi-view stereo reconstruction},
+  author={Kuhn, Andreas and Hirschm{\"u}ller, Heiko and Scharstein, Daniel and Mayer, Helmut},
+  journal={International Journal of Computer Vision},
+  volume={124},
+  number={1},
+  pages={2--17},
+  year={2017},
+  publisher={Springer}
+}
+
+% https://openheritage3d.org/project.php?id=4h29-7e80
+@misc{palacio_tschudi,
+  author = {CyArk},
+  title = {Palacio Tschudi - Chan Chan, Peru},
+  year = 2020,
+  url = {http://doi.org/10.26301/4h29-7e80},
+  doi = http://doi.org/10.26301/4h29-7e80
+}
+
+% https://openheritage3d.org/project.php?id=n06n-qa49
+@misc{tomb_of_tu_duc,
+  author = {CyArk},
+  title = {Complex of Hué Monuments - Tomb of Tu Duc, Vietnam},
+  year = 2019,
+  url = {http://doi.org/10.26301/n06n-qa49},
+  doi = http://doi.org/10.26301/n06n-qa49
+}
+
+% https://download.kortforsyningen.dk/content/skraafoto
+@misc{skraafoto_copenhagen,
+  author = {{Danish Agency for Data Supply and Efficiency}},
+  title = {Skraafoto of Copenhagen},
+  year = 2019,
+  url = {https://download.kortforsyningen.dk/content/skraafoto}
+}
+
+@misc{gmaps_copenhagen,
+  author = {Google Maps},
+  title = {{Copenhagen, Denmark, 55°40'33.95''N 12°34'6.01''E}},
+  year = 2020,
+}

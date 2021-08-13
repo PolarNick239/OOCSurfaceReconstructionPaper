@@ -1,0 +1,17 @@
+\begin{thebibliography}{1}\itemsep=-1pt
+
+\bibitem{skraafoto_copenhagen}
+{Danish Agency for Data Supply and Efficiency}.
+\newblock Skraafoto of copenhagen, 2019.
+
+\bibitem{hirschmuller2007stereo}
+Heiko Hirschmuller.
+\newblock Stereo processing by semiglobal matching and mutual information.
+\newblock {\em IEEE Transactions on pattern analysis and machine intelligence},
+  30(2):328--341, 2007.
+
+\bibitem{gmaps_copenhagen}
+Google Maps.
+\newblock {Copenhagen, Denmark, 55°40'33.95''N 12°34'6.01''E}, 2020.
+
+\end{thebibliography}

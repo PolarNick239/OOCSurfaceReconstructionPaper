@@ -1,0 +1,185 @@
+\begin{thebibliography}{10}\itemsep=-1pt
+
+\bibitem{bloomenthal1988polygonization}
+Jules Bloomenthal.
+\newblock {\em Polygonization of implicit surfaces}.
+\newblock Citeseer, 1988.
+
+\bibitem{bolitho2007multilevel}
+Matthew Bolitho, Michael Kazhdan, Randal Burns, and Hugues Hoppe.
+\newblock Multilevel streaming for out-of-core surface reconstruction.
+\newblock pages 69--78, 2007.
+
+\bibitem{boykov2004experimental}
+Yuri Boykov and Vladimir Kolmogorov.
+\newblock An experimental comparison of min-cut/max-flow algorithms for energy
+  minimization in vision.
+\newblock {\em IEEE transactions on pattern analysis and machine intelligence},
+  26(9):1124--1137, 2004.
+
+\bibitem{bredies2010total}
+Kristian Bredies, Karl Kunisch, and Thomas Pock.
+\newblock Total generalized variation.
+\newblock {\em SIAM Journal on Imaging Sciences}, 3(3):492--526, 2010.
+
+\bibitem{curless1996volumetric}
+Brian Curless and Marc Levoy.
+\newblock A volumetric method for building complex models from range images.
+\newblock In {\em Proceedings of the 23rd annual conference on Computer
+  graphics and interactive techniques}, pages 303--312, 1996.
+
+\bibitem{tomb_of_tu_duc}
+CyArk.
+\newblock Complex of hué monuments - tomb of tu duc, vietnam, 2019.
+
+\bibitem{palacio_tschudi}
+CyArk.
+\newblock Palacio tschudi - chan chan, peru, 2020.
+
+\bibitem{skraafoto_copenhagen}
+{Danish Agency for Data Supply and Efficiency}.
+\newblock Skraafoto of copenhagen, 2019.
+
+\bibitem{fuhrmann2014floating}
+Simon Fuhrmann and Michael Goesele.
+\newblock Floating scale surface reconstruction.
+\newblock {\em ACM Transactions on Graphics (ToG)}, 33(4):1--11, 2014.
+
+\bibitem{fuhrmann2014mve}
+Simon Fuhrmann, Fabian Langguth, and Michael Goesele.
+\newblock Mve-a multi-view reconstruction environment.
+\newblock In {\em GCH}, pages 11--18, 2014.
+
+\bibitem{garland1998simplifying}
+Michael Garland and Paul~S Heckbert.
+\newblock Simplifying surfaces with color and texture using quadric error
+  metrics.
+\newblock In {\em Proceedings Visualization'98 (Cat. No. 98CB36276)}, pages
+  263--269. IEEE, 1998.
+
+\bibitem{goldberg2015faster}
+Andrew~V Goldberg, Sagi Hed, Haim Kaplan, Pushmeet Kohli, Robert~E Tarjan, and
+  Renato~F Werneck.
+\newblock Faster and more dynamic maximum flow by incremental breadth-first
+  search.
+\newblock In {\em Algorithms-ESA 2015}, pages 619--630. Springer, 2015.
+
+\bibitem{graber2011online}
+Gottfried Graber, Thomas Pock, and Horst Bischof.
+\newblock Online 3d reconstruction using convex optimization.
+\newblock pages 708--711, 2011.
+
+\bibitem{han2019scalable}
+Jiali Han and Shuhan Shen.
+\newblock Scalable point cloud meshing for image-based large-scale 3d modeling.
+\newblock {\em Visual Computing for Industry, Biomedicine, and Art}, 2(1):1--9,
+  2019.
+
+\bibitem{hiep2009towards}
+Vu~Hoang Hiep, Renaud Keriven, Patrick Labatut, and Jean-Philippe Pons.
+\newblock Towards high-resolution large-scale multi-view stereo.
+\newblock pages 1430--1437, 2009.
+
+\bibitem{hirschmuller2007stereo}
+Heiko Hirschmuller.
+\newblock Stereo processing by semiglobal matching and mutual information.
+\newblock {\em IEEE Transactions on pattern analysis and machine intelligence},
+  30(2):328--341, 2007.
+
+\bibitem{jancosek2014exploiting}
+Michal Jancosek and Tomas Pajdla.
+\newblock Exploiting visibility information in surface reconstruction to
+  preserve weakly supported surfaces.
+\newblock {\em International scholarly research notices}, 2014, 2014.
+
+\bibitem{kazhdan2006poisson}
+Michael Kazhdan, Matthew Bolitho, and Hugues Hoppe.
+\newblock Poisson surface reconstruction.
+\newblock 7, 2006.
+
+\bibitem{kuhn2017tv}
+Andreas Kuhn, Heiko Hirschm{\"u}ller, Daniel Scharstein, and Helmut Mayer.
+\newblock A tv prior for high-quality scalable multi-view stereo
+  reconstruction.
+\newblock {\em International Journal of Computer Vision}, 124(1):2--17, 2017.
+
+\bibitem{kuhn2015incremental}
+Andreas Kuhn and Helmut Mayer.
+\newblock Incremental division of very large point clouds for scalable 3d
+  surface reconstruction.
+\newblock pages 10--18, 2015.
+
+\bibitem{li2016efficient}
+Shiwei Li, Sing~Yu Siu, Tian Fang, and Long Quan.
+\newblock Efficient multi-view surface refinement with adaptive resolution
+  control.
+\newblock pages 349--364, 2016.
+
+\bibitem{merrell2007real}
+Paul Merrell, Amir Akbarzadeh, Liang Wang, Philippos Mordohai, Jan-Michael
+  Frahm, Ruigang Yang, David Nist{\'e}r, and Marc Pollefeys.
+\newblock Real-time visibility-based fusion of depth maps.
+\newblock pages 1--8, 2007.
+
+\bibitem{morton1966computer}
+Guy~M Morton.
+\newblock A computer oriented geodetic data base and a new technique in file
+  sequencing.
+\newblock 1966.
+
+\bibitem{mostegel2017scalable}
+Christian Mostegel, Rudolf Prettenthaler, Friedrich Fraundorfer, and Horst
+  Bischof.
+\newblock Scalable surface reconstruction from point clouds with extreme scale
+  and density diversity.
+\newblock pages 904--913, 2017.
+
+\bibitem{pock2011tgv}
+Thomas Pock, Lukas Zebedin, and Horst Bischof.
+\newblock Tgv-fusion.
+\newblock pages 245--258, 2011.
+
+\bibitem{tu2004balance}
+Tiankai Tu and David~R O’hallaron.
+\newblock Balance refinement of massive linear octree.
+\newblock 2004.
+
+\bibitem{ummenhofer2015global}
+Benjamin Ummenhofer and Thomas Brox.
+\newblock Global, dense multiscale reconstruction for a billion points.
+\newblock pages 1341--1349, 2015.
+
+\bibitem{ummenhofer2017global}
+Benjamin Ummenhofer and Thomas Brox.
+\newblock Global, dense multiscale reconstruction for a billion points.
+\newblock {\em International Journal of Computer Vision}, pages 1--13, 2017.
+
+\bibitem{vu2011high}
+Hoang-Hiep Vu, Patrick Labatut, Jean-Philippe Pons, and Renaud Keriven.
+\newblock High accuracy and visibility-consistent dense multiview stereo.
+\newblock {\em IEEE transactions on pattern analysis and machine intelligence},
+  34(5):889--901, 2011.
+
+\bibitem{williams1983pyramidal}
+Lance Williams.
+\newblock Pyramidal parametrics.
+\newblock In {\em Proceedings of the 10th annual conference on Computer
+  graphics and interactive techniques}, pages 1--11, 1983.
+
+\bibitem{zach2008fast}
+Christopher Zach.
+\newblock Fast and high quality fusion of depth maps.
+\newblock 1(2), 2008.
+
+\bibitem{zach2007globally}
+Christopher Zach, Thomas Pock, and Horst Bischof.
+\newblock A globally optimal algorithm for robust tv-l1 range image
+  integration.
+\newblock pages 1--8, 2007.
+
+\bibitem{zhou2019detail}
+Yang Zhou, Shuhan Shen, and Zhanyi Hu.
+\newblock Detail preserved surface reconstruction from point cloud.
+\newblock {\em Sensors}, 19(6):1278, 2019.
+
+\end{thebibliography}
