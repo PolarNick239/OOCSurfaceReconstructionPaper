@@ -317,7 +317,7 @@ to run iterations with compact histograms \cite{zach2008fast} (thanks to fixed s
 The main difference is that we want the algorithm to be aware of scale diversity and to implement the minimization framework in the coarse-to-fine scheme. Because of this, it is impossible to ignore how big or small a voxel projection is in a depth map: if a projected voxel is large (for example, on the coarser levels) and is covered with many depth map pixels (i.e. intersected with many distance field rays), we need to account for all of them. This problem is very similar to the texture aliasing problem in computer graphics, which can be solved
 with texture mipmaps \cite{williams1983pyramidal}. Similarly, we have used depth map pyramids by building mipmaps for each depth map. Therefore, when we
 project a voxel to the depth map, we choose an appropriate depth map level of details, and only then we estimate a histogram bin of a current voxel to which the current depth map will contribute,
-see the listing in Algorithm \ref{fig:hists_listing}.
+see the listing in Algorithm \ref{alg:hists_listing}.
 
 Note that such voxel projection into the pyramid of a depth map is very unstable and changes heavily with any change of the size of a working region bounding box, which happens because the natural voxel's radius in the octree is equal to $\frac{r_{root}}{2^{d}}$, where $d$ is the voxel's depth and $r_{root}$ is
 the radius of the octree's root voxel which depends on the size of a whole working region. To be invariant to the selection of the working region size,
@@ -328,7 +328,7 @@ These details lead to local and stable progressive isosurface refinement from co
 \begin{algorithm*}
 \capstart
 \caption{Pseudocode of the estimation of distance field contribution to voxel histograms.}
-\label{fig:hists_listing}
+\label{alg:hists_listing}
 \begin{algorithmic}[H]
 \Procedure{add\_to\_voxel\_histograms}{$\vars{depthmap\_pyramid}, \vars{voxel}$}
 %\Function{add_to_voxel_histograms}{$\vars{depthmap\_pyramid}, \vars{voxel}$}
@@ -497,7 +497,7 @@ we need to add votes of all distance fields to all relevant cubes in the octree.
 Let us process all treetop leafs one by one and estimate relevant distance fields for each leaf, which is achieved simply by
 checking each distance field frustum for an intersection with the treetop leaf cube volume. Then, we can just load all relevant distance fields
 for each treatop leaf one by one and add their votes to all descendants
-of the current treetop leaf, like shown in the listing in Algorithm \ref{fig:hists_listing}.
+of the current treetop leaf, like shown in the listing in Algorithm \ref{alg:hists_listing}.
 
 Note that at any moment during the computation of the histograms the memory contains no more than $N_{cubesPerTreetopLeaf}$ octree cubes and only
 a single distance field.
@@ -635,7 +635,7 @@ The summary for these datasets presented in Table~\ref{tab:datasets}.
 
 For photo-based datasets, we executed the \textit{structure from motion} pipeline to estimate depth maps with SGM \cite{hirschmuller2007stereo}
 method and evaluated our algorithm by using these depth maps as input. Note that to speed up the estimation of depthmaps, we downscaled original photos for some datasets -- see Table~\ref{tab:datasets}.
-For the Tomb of Tu Duc LIDAR dataset, we converted each input scan into a 360-camera's depth map and used histogram votes with an increased weight -- see the listing in Algorithm \ref{fig:hists_listing}.
+For the Tomb of Tu Duc LIDAR dataset, we converted each input scan into a 360-camera's depth map and used histogram votes with an increased weight -- see the listing in Algorithm \ref{alg:hists_listing}.
 Processing breakdowns for other datasets including the Copenhagen city dataset (evaluated twice -- on an affordable computer and on a small cluster) with reconstruction results for many different city scenes are provided in the supplementary.
 
 We ensured that the results are detailed and clean (see Fig.~\ref{fig:citywall},~\ref{fig:tomb_lidar},~\ref{fig:palacio},~\ref{fig:breisach}) for all datasets, and that our method's peak memory usage was between 10 GB and 17 GB.
