@@ -317,7 +317,7 @@ to run iterations with compact histograms \cite{zach2008fast} (thanks to fixed s
 The main difference is that we want the algorithm to be aware of scale diversity and to implement the minimization framework in the coarse-to-fine scheme. Because of this, it is impossible to ignore how big or small a voxel projection is in a depth map: if a projected voxel is large (for example, on the coarser levels) and is covered with many depth map pixels (i.e. intersected with many distance field rays), we need to account for all of them. This problem is very similar to the texture aliasing problem in computer graphics, which can be solved
 with texture mipmaps \cite{williams1983pyramidal}. Similarly, we have used depth map pyramids by building mipmaps for each depth map. Therefore, when we
 project a voxel to the depth map, we choose an appropriate depth map level of details, and only then we estimate a histogram bin of a current voxel to which the current depth map will contribute,
-see pseudocode in Fig.~\ref{fig:hists_listing}.
+see the listing in Algorithm \ref{fig:hists_listing}.
 
 Note that such voxel projection into the pyramid of a depth map is very unstable and changes heavily with any change of the size of a working region bounding box, which happens because the natural voxel's radius in the octree is equal to $\frac{r_{root}}{2^{d}}$, where $d$ is the voxel's depth and $r_{root}$ is
 the radius of the octree's root voxel which depends on the size of a whole working region. To be invariant to the selection of the working region size,
@@ -635,8 +635,8 @@ The summary for these datasets presented in Table~\ref{tab:datasets}.
 
 For photo-based datasets, we executed the \textit{structure from motion} pipeline to estimate depth maps with SGM \cite{hirschmuller2007stereo}
 method and evaluated our algorithm by using these depth maps as input. Note that to speed up the estimation of depthmaps, we downscaled original photos for some datasets -- see Table~\ref{tab:datasets}.
-For the Tomb of Tu Duc LIDAR dataset, we converted each input scan into a 360-camera's depth map and used histogram votes with an increased weight -- see the listing in Fig.\ref{fig:hists_listing}.
-Processing breakdowns for other datasets including the Copenhagen city dataset (evaluated twice -- on an affordable computer and on a small cluster) with reconstruction results for many different city scenes is provided in the supplementary.
+For the Tomb of Tu Duc LIDAR dataset, we converted each input scan into a 360-camera's depth map and used histogram votes with an increased weight -- see the listing in Algorithm \ref{fig:hists_listing}.
+Processing breakdowns for other datasets including the Copenhagen city dataset (evaluated twice -- on an affordable computer and on a small cluster) with reconstruction results for many different city scenes are provided in the supplementary.
 
 We ensured that the results are detailed and clean (see Fig.~\ref{fig:citywall},~\ref{fig:tomb_lidar},~\ref{fig:palacio},~\ref{fig:breisach}) for all datasets, and that our method's peak memory usage was between 10 GB and 17 GB.
 Comparison with previous work \cite{ummenhofer2015global}, \cite{mostegel2017scalable}, presented in Table~\ref{tab:datasets_comparison}, shows that our method has significantly lower peak memory usage and is notably faster.
