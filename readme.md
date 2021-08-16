@@ -15,7 +15,7 @@ Structure of the repository:
 
 Citywall reconstruction results (you can download better video - [encoded with H.265/HEVC](/anc/citywall_reconstruction.mp4?raw=true)):
 
-
+https://user-images.githubusercontent.com/1218605/129604466-b31b95a6-a45a-485b-ba42-a49757184f20.mp4
 
 ## Notes
 
