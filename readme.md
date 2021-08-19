@@ -4,8 +4,8 @@ Available on [arxiv](https://arxiv.org/abs/2107.14790) and accepted to [ICCV 202
 
 Structure of the repository:
 
- - [/pdf/poliarnyi2021.pdf](https://docs.google.com/viewer?url=https://github.com/PolarNick239/OOCSurfaceReconstructionPaper/blob/master/pdf/poliarnyi2021.pdf?raw=true) - the paper (compiled pdf)
- - [/pdf/poliarnyi2021_supp.pdf](https://docs.google.com/viewer?url=https://github.com/PolarNick239/OOCSurfaceReconstructionPaper/blob/master/pdf/poliarnyi2021_supp.pdf?raw=true) - the supplementary (compiled pdf)
+ - [/pdf/poliarnyi2021.pdf](https://polarnick239.github.io/static/papers/poliarnyi2021.pdf) - the paper (compiled pdf)
+ - [/pdf/poliarnyi2021_supp.pdf](https://www.polarnick.com/static/papers/poliarnyi2021_supp.pdf) - the supplementary (compiled pdf)
  - [/anc/citywall_reconstruction.mp4](/anc/citywall_reconstruction.mp4?raw=true) - supplementary video with Citywall dataset results (H.265/HEVC codec)
  - /anc/blocks.txt - supplementary text file with list of the Copenhagen city tiles (for easy automated downloading with Python)
  - /ms.tex - the paper source
