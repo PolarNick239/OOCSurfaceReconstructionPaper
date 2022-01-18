@@ -11,9 +11,9 @@ because of its strong visibility-based noise-filtering properties and GPU-friend
 Our main contribution is an out-of-core OpenCL-accelerated adaptation of this numerical algorithm 
 which can handle arbitrarily large real-world scenes with scale diversity.
 
-## Presentation
+## Presentations
 
-<a href="https://youtu.be/tgxNLJynNhw"><img src="https://raw.githubusercontent.com/PolarNick239/OOCSurfaceReconstructionPaper/master/.github/video_preview.png" alt="Presentation on ICCV 2021" width="49%"/></a> <a href="https://polarnick239.github.io/static/papers/poliarnyi2021_tgv_ooc_poster.pdf"><img src="https://raw.githubusercontent.com/PolarNick239/OOCSurfaceReconstructionPaper/master/.github/poster_preview.png" alt="Poster" width="49%"/></a> 
+<a href="https://youtu.be/tgxNLJynNhw"><img src="https://raw.githubusercontent.com/PolarNick239/OOCSurfaceReconstructionPaper/master/.github/video_preview.png" alt="Presentation on ICCV 2021" width="32%"/></a> <a href="https://polarnick239.github.io/static/papers/poliarnyi2021_tgv_ooc_poster.pdf"><img src="https://raw.githubusercontent.com/PolarNick239/OOCSurfaceReconstructionPaper/master/.github/poster_preview.png" alt="Poster" width="32%"/></a> <a href="https://www.youtube.com/watch?v=vrSCD88X8BU&t=7661s"><img src="https://raw.githubusercontent.com/PolarNick239/OOCSurfaceReconstructionPaper/master/.github/ya_video_preview.png" alt="Presentation on Yandex Christmas Colloquium on CV 2021" width="32%"/>
 
 
 Citywall reconstruction results (better video [is encoded with H.265/HEVC](/anc/citywall_reconstruction.mp4?raw=true)):
@@ -27,6 +27,7 @@ https://user-images.githubusercontent.com/1218605/129604466-b31b95a6-a45a-485b-b
  - [/presentation/poliarnyi2021_tgv_ooc_presentation.mp4](https://youtu.be/tgxNLJynNhw) - presentation video (with embedded subtitles)
  - [/presentation/poliarnyi2021_tgv_ooc_slides.pdf](https://polarnick239.github.io/static/papers/poliarnyi2021_tgv_ooc_slides.pdf) - presentation slides (pdf)
  - [/presentation/poliarnyi2021_tgv_ooc_poster.pdf](https://polarnick239.github.io/static/papers/poliarnyi2021_tgv_ooc_poster.pdf) - poster (pdf)
+ - [/presentation/poliarnyi2021_tgv_ooc_slides_ru.pdf](https://polarnick239.github.io/static/papers/poliarnyi2021_tgv_ooc_slides_ru.pdf) - presentation slides for [Yandex Christmas Colloquium on CV 2021](https://www.youtube.com/watch?v=vrSCD88X8BU&t=7661s) (RU, pdf)
  - [/anc/citywall_reconstruction.mp4](/anc/citywall_reconstruction.mp4?raw=true) - supplementary video with Citywall dataset results (H.265/HEVC codec)
  - /anc/blocks.txt - supplementary text file with list of the Copenhagen city tiles (for easy automated downloading with Python)
  - /ms.tex - the paper source
